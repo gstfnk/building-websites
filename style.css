@@ -1,0 +1,44 @@
+body {
+    background-color: #0b3468;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: #e8e5ea;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+h2 {
+    margin-bottom: 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    margin: 0 0 50px;
+    color: #fd9eff;
+    font-size: 60px;
+}
+
+a {
+    color: #e8e5ea;
+    font-size: 40px;
+}
+
+ul {
+    width: 200px;
+    margin: 10px auto;
+}
+
+.exercise-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4,auto);
+}
+
+.single-exercise {
+    padding: 10px;
+}
