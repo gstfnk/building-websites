@@ -128,7 +128,7 @@ function validateName() {
     if (!validateMaxLength(20, name)) {
         return false
     }
-    if (!validateRegex(/^[A-ZĄĘĆŻŹÓŁa-ząęćżźół]+$/, name, "Dozwolone tylko litery!")) {
+    if (!validateRegex(/^[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ-]+$/, name, "Dozwolone tylko litery!")) {
         return false
     }
     addSuccess(name)
@@ -144,7 +144,7 @@ function validateSurname() {
     if (!validateMaxLength(20, surname)) {
         return false
     }
-    if (!validateRegex(/^[A-ZĄĘĆŻŹÓŁa-ząęćżźół \-]+$/, surname, "Dozwolone tylko litery!")) {
+    if (!validateRegex(/^[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ-]+$/, surname, "Dozwolone tylko litery!")) {
         return false
     }
     addSuccess(surname)
@@ -160,7 +160,7 @@ function validateCityName() {
     if (!validateMaxLength(20, streetName)) {
         return false
     }
-    if (!validateRegex(/^[A-ZĄĘĆŻŹÓŁa-ząęćżźół \-]+$/, cityName, "Nieprawidłowe znaki!")) {
+    if (!validateRegex(/^[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ-]+$/, cityName, "Nieprawidłowe znaki!")) {
         return false
     }
     addSuccess(cityName)
