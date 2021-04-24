@@ -1,3 +1,6 @@
+<?php
+include __DIR__."/../PHP/direct-to-logout.php"
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <link href="/assets/favicon.ico" rel="icon" type="image/x-icon"/>
-    <title>Zadanie 2A</title>
+    <title>Zadanie 3A</title>
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <style>
         body {
@@ -49,6 +52,9 @@
     </style>
 </head>
 <body>
+<?php
+include __DIR__."/../PHP/logout-button.php"
+?>
 <h1>
     <a href="https://en.wikipedia.org/wiki/Nyan_Cat">Nyan Cat</a>
 </h1>

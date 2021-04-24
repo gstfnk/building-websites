@@ -1,3 +1,6 @@
+<?php
+include __DIR__."/../PHP/direct-to-logout.php"
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +14,9 @@
     <title>Zadanie 3</title>
 </head>
 <body>
+<?php
+include __DIR__."/../PHP/logout-button.php"
+?>
 <h1>
     Oblicz razem z <span class="pink-color">Fun</span>Culatorem!
 </h1>

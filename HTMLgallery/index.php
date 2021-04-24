@@ -1,3 +1,6 @@
+<?php
+include __DIR__."/../PHP/direct-to-logout.php"
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <link href="/assets/favicon.ico" rel="icon" type="image/x-icon"/>
-    <title>Zadanie 1B</title>
+    <title>Zadanie 2B</title>
     <style>
         body {
             background-color: #0b3468;
@@ -35,6 +38,9 @@
         }
     </style>
 </head>
+<?php
+include __DIR__."/../PHP/logout-button.php"
+?>
 <h1>
     Galeria Kuców
 </h1>

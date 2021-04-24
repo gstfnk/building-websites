@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xslt"?>
+<facture>
+    <number>12461/2021</number>
+    <payment>
+        <date>21.04.2021</date>
+        <form>Przelew</form>
+    </payment>
+    <seller>Jan Kowalski</seller>
+    <city-date>Warszawa, 18.04.2021</city-date>
+    <service-date>17.04.2021</service-date>
+    <buyer>Przemysław Nowak</buyer>
+    <account-number>66 1111 2222 3333 4444 5555</account-number>
+    <items>
+        <product>
+            <name>Monitor Acer</name>
+            <unit>szt</unit>
+            <amount>3</amount>
+            <zl-unit>560</zl-unit>
+            <gr-unit>0</gr-unit>
+        </product>
+        <product>
+            <name>Klawiatura SteelSeries</name>
+            <unit>szt</unit>
+            <amount>2</amount>
+            <zl-unit>850</zl-unit>
+            <gr-unit>0</gr-unit>
+        </product>
+        <product>
+            <name>Fotel ergonomiczny Diablo</name>
+            <unit>szt</unit>
+            <amount>3</amount>
+            <zl-unit>950</zl-unit>
+            <gr-unit>0</gr-unit>
+        </product>
+        <product>
+            <name>Myszka Logitech Hero</name>
+            <unit>szt</unit>
+            <amount>5</amount>
+            <zl-unit>190</zl-unit>
+            <gr-unit>0</gr-unit>
+        </product>
+        <product>
+            <name>Kamera internetowa Logitech</name>
+            <unit>szt</unit>
+            <amount>3</amount>
+            <zl-unit>110</zl-unit>
+            <gr-unit>0</gr-unit>
+        </product>
+        <product>
+            <name>Kamera internetowa Logitech</name>
+            <unit>szt</unit>
+            <amount>3</amount>
+            <zl-unit>110</zl-unit>
+            <gr-unit>0</gr-unit>
+        </product>
+    </items>
+    <comments>Proszę o dostawe w dniu 23.04.2021</comments>
+    <author>Marek Towarek</author>
+</facture>
