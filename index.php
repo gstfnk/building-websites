@@ -96,6 +96,14 @@ include __DIR__."/PHP/logout-button.php"
             </li>
         </ul>
     </div>
+        <div class="single-exercise">
+            <h2>Zadanie 8:</h2>
+            <ul>
+                <li>
+                    <a href="SQLform/index.php">Zadanie 8</a>
+                </li>
+            </ul>
+        </div>
 </div>
 </body>
 </html>

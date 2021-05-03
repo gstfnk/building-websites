@@ -1,0 +1,94 @@
+body {
+    background: #0b3468 linear-gradient(to right, #0b3468, #fd9eff);
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: #e8e5ea;
+}
+
+.pink-color {
+    color: #fd9eff
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+p {
+    margin: 0 0 50px;
+    font-size: 60px;
+}
+
+.table {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: antiquewhite;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, .25);
+    box-shadow: 17px 26px 84px 11px rgba(92, 61, 128, 1);
+    border-radius: 5px;
+    margin: auto;
+    width: 900px;
+}
+
+.row {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 900px;
+    height: auto;
+    padding: 5px 5px 5px 5px;
+    margin-left: 5px;
+}
+
+.title-style {
+    background-color: rgba(0, 0, 0, .20);
+    border-radius: 5px;
+}
+
+.id-style {
+    width: 10%;
+}
+
+.firstname-style {
+    width: 25%;
+}
+.lastname-style {
+    width: 25%;
+}
+.age-style {
+    width: 10%;
+}
+
+.button-style {
+    width: 30%;
+}
+
+.add-button-style {
+    width: 200%;
+    megin-right: 100px;
+}
+
+input{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    background-color: rgba(255, 255, 255, .25);
+    border: none;
+    border-radius: 4px;
+}
+
+button{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    background-color: rgba(255, 255, 255, .25);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    width: 40%;
+}
