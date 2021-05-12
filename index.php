@@ -100,10 +100,18 @@ include __DIR__."/PHP/logout-button.php"
             <h2>Zadanie 8:</h2>
             <ul>
                 <li>
-                    <a href="SQLform/index.php">Zadanie 8</a>
+                    <a href="SQLform">Zadanie 8</a>
                 </li>
             </ul>
         </div>
+            <div class="single-exercise">
+                <h2>Zadanie 9:</h2>
+                <ul>
+                    <li>
+                        <a href="JSCalculatorSlider/index.php">Zadanie 9</a>
+                    </li>
+                </ul>
+            </div>
 </div>
 </body>
 </html>

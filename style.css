@@ -12,19 +12,20 @@ h1 {
 
 h2 {
     margin-bottom: 0;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
 }
 
 p {
-    margin: 0 0 50px;
+    margin: 0 0 30px;
     color: #fd9eff;
     font-size: 60px;
 }
 
 a {
     color: #e8e5ea;
-    font-size: 40px;
+    font-size: 30px;
+    margin-right: 40px;
 }
 
 ul {
